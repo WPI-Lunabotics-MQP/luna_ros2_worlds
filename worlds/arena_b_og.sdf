@@ -45,7 +45,8 @@
     <model name="lunabotics field">
       <static>true</static>
       <pose>0 0 0 0 0 0</pose>
-      <link name="Rock_B_2">
+
+      <link name="Rock_B_2"> <!-- DONE-->
         <static>true</static>
         <pose>1.4422154165804386 0.32624600827693984 0.0 -3.141592653589793 0.0 1.570796326794897</pose>
         <collision name="collision">
@@ -58,6 +59,7 @@
             </mesh>
           </geometry>
         </collision>
+
         <visual name="Rock_B_2">
           <pose>-0.000981237823439951 0.0007439729472711321 0.0 3.141592653589793 0.0 0.0</pose>
           <material>
@@ -73,7 +75,8 @@
           </geometry>
         </visual>
       </link>
-      <link name="Rock_B_3">
+
+      <link name="Rock_B_3"> <!-- DONE-->
         <static>true</static>
         <pose>3.263943985104561 3.8079345018486492 0.0 3.141592653589793 0.0 0.0</pose>
         <collision name="collision">
@@ -101,7 +104,8 @@
           </geometry>
         </visual>
       </link>
-      <link name="Rock_A_2">
+
+      <link name="Rock_A_2"> <!-- DONE-->
         <static>true</static>
         <pose>1.3140944344837304 2.4528557435152196 -2.8581575953531427E-18 -3.141592653589793 0.0
           -2.356194490192345</pose>
@@ -131,7 +135,8 @@
           </geometry>
         </visual>
       </link>
-      <link name="Rock_A_1">
+
+      <link name="Rock_A_1"> <!-- DONE-->
         <static>true</static>
         <pose>-0.34899140777327564 2.266321043343764 0.0 -3.141592653589793 0.0 2.7052603405912112</pose>
         <collision name="collision">
@@ -159,7 +164,8 @@
           </geometry>
         </visual>
       </link>
-      <link name="Rock_C_1">
+      
+      <link name="Rock_C_1"> <!-- DONE-->
         <static>true</static>
         <pose>2.882498346269131 2.08679248392582 0.0 3.141592653589793 0.0 0.0</pose>
         <collision name="collision">
@@ -187,6 +193,7 @@
           </geometry>
         </visual>
       </link>
+
       <link name="Arena_B_1">
         <static>true</static>
         <pose>0 0 0 0.0 0.0 0.0</pose>
@@ -215,7 +222,8 @@
           </geometry>
         </visual>
       </link>
-      <link name="Rock_B_4">
+
+      <link name="Rock_B_4"> <!-- DONE-->
         <static>true</static>
         <pose>4.3004668802022925 1.9480746248736978 0.0 3.141592653589793 0.0 0.0</pose>
         <collision name="collision">
@@ -243,7 +251,8 @@
           </geometry>
         </visual>
       </link>
-      <link name="Rock_C_2">
+
+      <link name="Rock_C_2"> <!-- DONE-->
         <static>true</static>
         <pose>4.919363421727817 3.346543054501487 0.0 -3.141592653589793 0.0 0.3490658503988658</pose>
         <collision name="collision">
