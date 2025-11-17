@@ -27,6 +27,11 @@
       name="gz::sim::systems::Imu">
     </plugin>
 
+    <plugin
+      filename="gz-sim-contact-system"
+      name="gz::sim::systems::Contact">
+    </plugin>
+
     <include>
       <uri>https://fuel.gazebosim.org/1.0/OpenRobotics/models/Ground Plane</uri>
     </include>
@@ -51,6 +56,7 @@
       <real_time_update_rate>1000.0</real_time_update_rate>
       <max_step_size>0.001</max_step_size>
       <real_time_factor>1</real_time_factor>
+      <max_contacts>100</max_contacts> <!--in order to prevent serious lag-->
       <ode>
         <solver>
           <type>quick</type>
@@ -69,42 +75,50 @@
     </physics>
 
     <!--Field model-->
-    <include name="arena_b">
+    <include>
+        <name>arena_b</name>
         <uri>model://arena_b</uri>
-        <pose>0 0 0 0 0 0</pose>
+        <pose>0 0 1 0 0 0</pose>
     </include>
 
-    <include name="rock_A1">
+    <include>
+        <name>rock_A1</name>
         <uri>model://rock_a</uri>
         <pose>-0.34899140777327564 2.266321043343764 0.0 -3.141592653589793 0.0 2.7052603405912112</pose>
     </include>
 
-    <include name="rock_A2">
+    <include>
+        <name>rock_A2</name>
         <uri>model://rock_a</uri>
         <pose>1.3140944344837304 2.4528557435152196 -2.8581575953531427E-18 -3.141592653589793 0.0 -2.35619449019234</pose>
     </include>
 
-    <include name="rock_B1">
+    <include>
+        <name>rock_B1</name>
         <uri>model://rock_b</uri>
         <pose>1.4422154165804386 0.32624600827693984 0.0 -3.141592653589793 0.0 1.570796326794897</pose>
     </include>
 
-    <include name="rock_B2">
+    <include>
+        <name>rock_B2</name>
         <uri>model://rock_b</uri>
         <pose>3.263943985104561 3.8079345018486492 0.0 3.141592653589793 0.0 0.0</pose>
     </include>
 
-    <include name="rock_B3">
+    <include>
+        <name>rock_B3</name>
         <uri>model://rock_b</uri>
         <pose>4.3004668802022925 1.9480746248736978 0.0 3.141592653589793 0.0 0.0</pose>
     </include>
 
-    <include name="rock_C1">
+    <include>
+        <name>rock_C1</name>
         <uri>model://rock_c</uri>
         <pose>2.882498346269131 2.08679248392582 0.0 3.141592653589793 0.0 0.0</pose>
     </include>
 
-    <include name="rock_C2">
+    <include>
+        <name>rock_C2</name>
         <uri>model://rock_c</uri>
         <pose>4.919363421727817 3.346543054501487 0.0 -3.141592653589793 0.0 0.3490658503988658</pose>
     </include>
