@@ -3,7 +3,7 @@
     <model name="arena_b">
     
         <!--pose relative to placement in world-->
-        <pose>0 0 0 0 0 0</pose>
+        <pose>2.471291741744935 1.712237635299308 0.0 0.0 0.0 0.0</pose>
         <static>true</static>
 
         <link name="rock">
@@ -15,6 +15,11 @@
                         <uri>model://arena_b/meshes/Arena_B.stl</uri>
                     </mesh>
                 </geometry>
+                <material>
+                    <ambient>0.8 0.8 0.8 1</ambient>
+                    <diffuse>0.8 0.8 0.8 1</diffuse>
+                    <specular>0.8 0.8 0.8 1</specular>
+                </material>
             </visual>
 
             <!-- collision geometry-->
