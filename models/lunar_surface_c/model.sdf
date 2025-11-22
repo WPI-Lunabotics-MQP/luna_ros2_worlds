@@ -20,17 +20,15 @@
               <size>8.14 9.14 0.1</size>
             </box>
           </geometry>
-
-            <!-- <friction>
-              <ode>
-                <mu>0.4</mu>
-                <mu2>0.4</mu2>
-              </ode>
-              <torsional>
-                <ode/>
-              </torsional>
-            </friction> -->
-
+            <surface>
+                <friction>
+                    <ode>
+                        <mu>0.4</mu>
+                        <mu2>0.4</mu2>
+                    </ode>
+                </friction>
+            </surface> 
+            <max_contacts>10</max_contacts> <!--hopefully prevents lag-->
         </collision>
       </link>
     </model>

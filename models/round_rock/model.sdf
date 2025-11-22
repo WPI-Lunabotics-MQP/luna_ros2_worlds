@@ -30,6 +30,7 @@
                         <uri>model://round_rock/meshes/rock_round.stl</uri>
                     </mesh>
                 </geometry>
+                <max_contacts>10</max_contacts> <!--hopefully prevents lag-->
             </collision>
 
             <inertial>
