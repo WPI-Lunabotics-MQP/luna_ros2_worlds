@@ -6,17 +6,17 @@
 
         <static>true</static>
 
-        <link name="rock">
+        <link name="link">
 
             <!-- visual model-->
             <visual name="visual">
                 <geometry>
                     <mesh>
-                        <uri>model://rock_a/meshes/Rock_A.stl</uri>
+                        <uri>model://round_rock/meshes/rock_round.dae</uri>
                     </mesh>
                 </geometry>
                 
-                <material>
+                <material> <!-- mid-grey material-->
                     <ambient>0.8 0.8 0.8 1</ambient>
                     <diffuse>0.8 0.8 0.8 1</diffuse>
                     <specular>0.8 0.8 0.8 1</specular>
@@ -27,7 +27,7 @@
             <collision name="collision">
                 <geometry>
                     <mesh>
-                        <uri>model://rock_a/meshes/Rock_A.stl</uri>
+                        <uri>model://round_rock/meshes/rock_round.stl</uri>
                     </mesh>
                 </geometry>
             </collision>

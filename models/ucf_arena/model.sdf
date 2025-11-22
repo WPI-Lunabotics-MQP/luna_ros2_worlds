@@ -4,6 +4,7 @@
 
         <static>true</static>
 
+        <!-- UCF arena rods -->
         <link name='arena_rods'>
             <pose>0 0 1.5 0 0 0</pose>
             <visual name='rod_visual'>
@@ -31,7 +32,7 @@
             </collision>
         </link>
 
-        <!-- walls-->
+        <!-- UCF arena walls-->
         <link name='walls'> 
             <pose>0 0 1.5 0 0 0</pose>
             <visual name='wall_visual'>
@@ -51,9 +52,9 @@
             </collision>
         </link>
         
-        <!-- barriers-->
+        <!-- UCF arena barriers-->
         <link name="barriers">
-            <pose>0 1.5 1.5 0 0 0</pose>
+            <pose>0 1.5 1.6 0 0 0</pose>
             <visual name='barriers_visual'>
                 <geometry>
                     <mesh>
@@ -79,11 +80,12 @@
             </collision>
         </link>
 
+        <!-- Lunar surface model-->
         <include>
             <name>lunar_floor</name>
             <uri>model://lunar_surface_c</uri>
-            <pose>0 0 0 0 0 0</pose>
+            <pose>0 0 -0.30 0 0 0</pose>
         </include>
-        
+
     </model>
 </sdf>

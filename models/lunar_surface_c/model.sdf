@@ -2,11 +2,10 @@
 <sdf version="1.7">
 
 <model name='lunar_surface'>
-      <static>1</static>
-
-      <link name='link'>
+      <static>true</static>
+      <link name='lunar_surface_base'>
         <visual name='lunar_surface'>
-          <pose>0 0 -0.3 0 0 0</pose>
+          <pose>0 0 0 0 0 0</pose>
           <geometry>
             <mesh>
               <uri>model://lunar_surface_c/meshes/lunar_surface3.dae</uri>
@@ -31,6 +30,7 @@
                 <ode/>
               </torsional>
             </friction> -->
+
         </collision>
       </link>
     </model>

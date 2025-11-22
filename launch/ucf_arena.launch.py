@@ -22,7 +22,7 @@ def generate_launch_description():
 
     # arguments for gz sim
     arguments = LaunchDescription([
-        DeclareLaunchArgument('world', default_value='ucf_migrated', description="launch file"),
+        DeclareLaunchArgument('world', default_value='ucf_arena', description="launch file"),
     ])
 
     # actually run gazebo
