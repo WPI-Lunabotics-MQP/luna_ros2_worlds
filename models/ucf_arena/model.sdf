@@ -1,0 +1,89 @@
+<?xml version="1.0" ?>
+<sdf version="1.7">
+    <model name='ucf_arena'>
+
+        <static>true</static>
+
+        <link name='arena_rods'>
+            <pose>0 0 1.5 0 0 0</pose>
+            <visual name='rod_visual'>
+                <geometry>
+                    <mesh>
+                        <uri>model://ucf_arena/meshes/arena_rods.dae</uri>
+                        <scale>1 1 1</scale>
+                    </mesh>
+                </geometry>
+                <material>
+                    <ambient>0.6 0.26 0 1</ambient>
+                    <diffuse>1 0.52 0 1</diffuse>
+                    <specular>0.18 0.18 0.18 1</specular>
+                    <emissive>0 0 0 1</emissive>
+                </material>
+            </visual>
+
+            <collision name='rod_collision'>
+                <geometry>
+                    <mesh>
+                        <uri>model://ucf_arena/meshes/arena_rods.stl</uri>
+                    <scale>1 1 1</scale>
+                    </mesh>
+                </geometry>
+            </collision>
+        </link>
+
+        <!-- walls-->
+        <link name='walls'> 
+            <pose>0 0 1.5 0 0 0</pose>
+            <visual name='wall_visual'>
+                <geometry>
+                    <mesh>
+                    <uri>model://ucf_arena/meshes/arena_walls.dae</uri>
+                    </mesh>
+                </geometry>
+            </visual>
+
+            <collision name='wall_collision'>
+                <geometry>
+                    <mesh>
+                        <uri>model://ucf_arena/meshes/arena_walls.stl</uri>
+                    </mesh>
+                </geometry>        
+            </collision>
+        </link>
+        
+        <!-- barriers-->
+        <link name="barriers">
+            <pose>0 1.5 1.5 0 0 0</pose>
+            <visual name='barriers_visual'>
+                <geometry>
+                    <mesh>
+                        <uri>model://ucf_arena/meshes/arena_barriers.dae</uri>
+                        <scale>1 1 1</scale>
+                    </mesh>
+                </geometry>
+                <material>
+                    <ambient>0.6 0.26 0 1</ambient>
+                    <diffuse>1 0.52 0 1</diffuse>
+                    <specular>0.18 0.18 0.18 1</specular>
+                    <emissive>0 0 0 1</emissive>
+                </material>
+            </visual>
+
+            <collision name='barriers_collision'>
+                <geometry>
+                    <mesh>
+                        <uri>model://ucf_arena/meshes/arena_barriers.stl</uri>
+                        <scale>1 1 1</scale>
+                    </mesh>
+                </geometry>
+            </collision>
+        </link>
+
+        <include>
+            <name>lunar_floor</name>
+            <uri>model://lunar_surface_c</uri>
+            <pose>0 0 0 0 0 0</pose>
+        </include>
+        
+    </model>
+</sdf>

@@ -1,0 +1,37 @@
+<?xml version="1.0" ?>
+<sdf version="1.7">
+
+<model name='lunar_surface'>
+      <static>1</static>
+
+      <link name='link'>
+        <visual name='lunar_surface'>
+          <pose>0 0 -0.3 0 0 0</pose>
+          <geometry>
+            <mesh>
+              <uri>model://lunar_surface_c/meshes/lunar_surface3.dae</uri>
+              <scale>1 1 1</scale>
+            </mesh>
+          </geometry>
+        </visual>
+        <collision name='lunar_surface_collision'>
+          <pose>0 0 -0.3 0 0 0</pose>
+          <geometry>
+            <box>
+              <size>8.14 9.14 0.1</size>
+            </box>
+          </geometry>
+
+            <!-- <friction>
+              <ode>
+                <mu>0.4</mu>
+                <mu2>0.4</mu2>
+              </ode>
+              <torsional>
+                <ode/>
+              </torsional>
+            </friction> -->
+        </collision>
+      </link>
+    </model>
+</sdf>
