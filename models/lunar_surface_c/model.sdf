@@ -14,11 +14,17 @@
           </geometry>
         </visual>
         <collision name='lunar_surface_collision'>
-          <pose>0 0 -0.3 0 0 0</pose>
-          <geometry>
+          <pose>0 0 0 0 0 0</pose>
+          <!-- <geometry>
             <box>
-              <size>8.14 9.14 0.1</size>
+              <size>8.14 9.14 1.15</size>
             </box>
+          </geometry> -->
+          <geometry>
+            <mesh>
+              <uri>model://lunar_surface_c/meshes/lunar_surface3.dae</uri>
+              <scale>1 1 1</scale>
+            </mesh>
           </geometry>
             <surface>
                 <friction>

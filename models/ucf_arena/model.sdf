@@ -141,7 +141,7 @@
         <include>
             <name>lunar_floor</name>
             <uri>model://lunar_surface_c</uri>
-            <pose>0 0 -0.30 0 0 0</pose>
+            <pose>0 0 -0.3 0 0 0</pose>
         </include>
 
     </model>
