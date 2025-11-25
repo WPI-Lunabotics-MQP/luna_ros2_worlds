@@ -1,0 +1,32 @@
+<?xml version="1.0"?>
+<sdf version="1.7">
+  <model name="tag_620_669">
+    <static>true</static>
+    <link name="link">
+      <pose>0 0 0.01 0 0 0</pose> <!-- slightly above ground -->
+      <visual name="visual">
+        <geometry>
+          <plane>
+            <size>0.2 0.2</size> <!-- adjust to real tag size -->
+          </plane>
+        </geometry>
+        <material>
+          <script>
+            <uri>model://tag_620_669/materials/scripts</uri>
+            <name>TagMaterial</name>
+          </script>
+          <ambient>0.7 0.7 0.7 1</ambient>
+          <diffuse>1 1 1 1</diffuse>
+        </material>
+        <double_sided>true</double_sided>
+      </visual>
+      <collision name="collision">
+        <geometry>
+          <plane>
+            <size>0.2 0.2</size>
+          </plane>
+        </geometry>
+      </collision>
+    </link>
+  </model>
+</sdf>
