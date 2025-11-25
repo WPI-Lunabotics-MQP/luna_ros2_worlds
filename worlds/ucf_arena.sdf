@@ -132,13 +132,13 @@
 
     <include>
       <name>tag_611_840</name>
-      <pose>-3.5 4.25 1.5 1.5708 0 0</pose>
+      <pose>-3.5 4.25 1.25 1.5708 0 0</pose>
       <uri>model://tag_611_840</uri>
     </include>
 
     <include>
       <name>tag_620_669</name>
-      <pose>-4.75 2.5 1.5 1.5708 0 1.5708</pose>
+      <pose>-4.75 2.5 1.25 1.5708 0 1.5708</pose>
       <uri>model://tag_620_669</uri>
     </include>
 
