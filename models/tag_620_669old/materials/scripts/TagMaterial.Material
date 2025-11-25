@@ -1,0 +1,13 @@
+material TagMaterial
+{
+    technique
+    {
+        pass
+        {
+            texture_unit
+            {
+                texture ../textures/tag_620_669.png
+            }
+        }
+    }
+}
