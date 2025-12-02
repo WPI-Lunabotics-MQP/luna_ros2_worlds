@@ -22,7 +22,7 @@
           </geometry> -->
           <geometry>
             <mesh>
-              <uri>model://lunar_surface_c/meshes/lunar_surface3.dae</uri>
+              <uri>model://lunar_surface_c/meshes/lunar_surface3.stl</uri>
               <scale>1 1 1</scale>
             </mesh>
           </geometry>

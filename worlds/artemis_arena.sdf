@@ -1,6 +1,6 @@
 <?xml version="1.0"?>
 <sdf version="1.6">
-  <world name="lunabotics_ucf_arena">
+  <world name="lunabotics_artemis_arena">
     <plugin
       filename="gz-sim-physics-system"
       name="gz::sim::systems::Physics">
@@ -76,69 +76,69 @@
 
     <!--Models go here-->
     <include>
-        <uri>model://ucf_arena</uri>
+        <uri>model://artemis_arena</uri>
         <pose>0 0 0 0 0 0</pose>
     </include>
 
     <!-- Round Rocks -->
     <include>
       <name>round_rock_1</name>
-      <pose>-3.38496 -0.017282 -0.13 0 0 0.846674</pose>
+      <pose>-3.38496 -0.017282 0.3 0 0 0.846674</pose>
       <uri>model://round_rock</uri>
     </include>
 
     <include>
       <name>round_rock_2</name>
-      <pose>-3.54076 -3.02333 -0.13 0 0 0.846674</pose>
+      <pose>-3.54076 -3.02333 0.3 0 0 0.846674</pose>
       <uri>model://round_rock</uri>
     </include>
 
     <include>
       <name>round_rock_3</name>
-      <pose>3.45882 -3.05383 -0.13 0 0 0.846674</pose>
+      <pose>3.45882 -3.05383 0.3 0 0 0.846674</pose>
       <uri>model://round_rock</uri>
     </include>
     
     <!-- Rough Rocks -->
     <include>
       <name>rough_rock_1</name>
-      <pose>-2.13309 1.26296 -0.13 0.002665 -0.015178 -2.17369</pose>
+      <pose>-2.13309 1.26296 0.25 0.002665 -0.015178 -2.17369</pose>
       <uri>model://rough_rock</uri>
     </include>
 
     <include>
       <name>rough_rock_2</name>
-      <pose>-1.19102 -0.009563 -0.13 0.002665 -0.015178 -2.17369</pose>
+      <pose>-1.19102 -0.009563 0.25 0.002665 -0.015178 -2.17369</pose>
       <uri>model://rough_rock</uri>
     </include>
 
     <include>
       <name>rough_rock_3</name>
-      <pose>3.71773 0.333957 -0.13 0.002665 -0.015178 -2.17369</pose>
+      <pose>3.71773 0.333957 0.25 0.002665 -0.015178 -2.17369</pose>
       <uri>model://rough_rock</uri>
     </include>
 
     <include>
       <name>rough_rock_4</name>
-      <pose>1.61448 2.48544 -0.13 0.002665 -0.015178 -2.17369</pose>
+      <pose>1.61448 2.48544 0.25 0.002665 -0.015178 -2.17369</pose>
       <uri>model://rough_rock</uri>
     </include>
 
     <include>
       <name>rough_rock_5</name>
-      <pose>0.912668 1.16155 -0.13 0.002665 -0.015178 -2.17369</pose>
+      <pose>0.912668 1.16155 0.25 0.002665 -0.015178 -2.17369</pose>
       <uri>model://rough_rock</uri>
     </include>
 
     <include>
       <name>tag_917_840</name>
-      <pose>-3.75 4.25 1 1.5708 0 0</pose>
+      <pose>-3.75 4.25 1.25 1.5708 0 0</pose>
       <uri>model://tag_917_840</uri>
     </include>
 
     <include>
       <name>tag_733_669</name>
-      <pose>-4.75 2.75 1 1.5708 0 1.5708</pose>
+      <pose>-4.75 2.75 1.25 1.5708 0 1.5708</pose>
       <uri>model://tag_733_669</uri>
     </include>
 
