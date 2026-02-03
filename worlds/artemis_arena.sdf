@@ -80,65 +80,75 @@
         <pose>0 0 0 0 0 0</pose>
     </include>
 
-    <!-- Round Rocks -->
     <include>
       <name>round_rock_1</name>
-      <pose>-3.38496 -0.017282 0.3 0 0 0.846674</pose>
+      <pose>1.32307 0.270163 0.05 0 0 0.846674</pose>
       <uri>model://round_rock</uri>
     </include>
 
     <include>
       <name>round_rock_2</name>
-      <pose>-3.54076 -3.02333 0.3 0 0 0.846674</pose>
+      <pose>0.56 -0.39 0.05 0 0 -0.80</pose>
       <uri>model://round_rock</uri>
     </include>
 
     <include>
       <name>round_rock_3</name>
-      <pose>3.45882 -3.05383 0.3 0 0 0.846674</pose>
+      <pose>3.25 -0.75 0.05 0 0 2.55</pose>
       <uri>model://round_rock</uri>
     </include>
-    
-    <!-- Rough Rocks -->
+
+    <include>
+      <name>round_rock_4</name>
+      <pose>-2.75 1.0 0.05 1 0 2.55</pose>
+      <uri>model://round_rock</uri>
+    </include>
+
+    <include>
+      <name>round_rock_5</name>
+      <pose>2.25 2.0 0.05 0 0.23587 2.55</pose>
+      <uri>model://round_rock</uri>
+    </include>
+
     <include>
       <name>rough_rock_1</name>
-      <pose>-2.13309 1.26296 0.25 0.002665 -0.015178 -2.17369</pose>
+      <pose>-2.01943 -0.546468 0.05 0 0 -2.17367</pose>
       <uri>model://rough_rock</uri>
     </include>
 
     <include>
       <name>rough_rock_2</name>
-      <pose>-1.19102 -0.009563 0.25 0.002665 -0.015178 -2.17369</pose>
+      <pose>0.63 -1.84 0.05 0 0 -0.62</pose>
       <uri>model://rough_rock</uri>
     </include>
 
     <include>
       <name>rough_rock_3</name>
-      <pose>3.71773 0.333957 0.25 0.002665 -0.015178 -2.17369</pose>
+      <pose>-1.0 -1.25 0.05 0 0 -2.17367</pose>
       <uri>model://rough_rock</uri>
     </include>
 
     <include>
       <name>rough_rock_4</name>
-      <pose>1.61448 2.48544 0.25 0.002665 -0.015178 -2.17369</pose>
+      <pose>-2.61448 2.08544 0.05 0.002665 -0.015178 -2.17369</pose>
       <uri>model://rough_rock</uri>
     </include>
 
     <include>
       <name>rough_rock_5</name>
-      <pose>0.912668 1.16155 0.25 0.002665 -0.015178 -2.17369</pose>
+      <pose>0.312668 -1.16155 0.05 0.002665 -0.015178 -2.17369</pose>
       <uri>model://rough_rock</uri>
     </include>
 
     <include>
       <name>tag_917_840</name>
-      <pose>-3.75 4.25 1.25 1.5708 0 0</pose>
+      <pose>-2.5 -2.65 1.0 1.5708 0 3.1416</pose>
       <uri>model://tag_917_840</uri>
     </include>
 
     <include>
       <name>tag_733_669</name>
-      <pose>-4.75 2.75 1.25 1.5708 0 1.5708</pose>
+      <pose>-3.6 -1.75 1.0 1.5708 0 1.5708</pose>
       <uri>model://tag_733_669</uri>
     </include>
 

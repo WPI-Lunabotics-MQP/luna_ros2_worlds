@@ -85,7 +85,7 @@
               <color sid="ambient">0.6 0.55 0.45 1</color>
             </ambient>
             <diffuse>
-              <texture texture="lunar_texture_png-sampler" texcoord="automap"/>
+              <texture texture="lunar_texture_png-sampler" texcoord="TEX0"/>
             </diffuse>
             <index_of_refraction>
               <float sid="ior">1.45</float>
@@ -97,7 +97,7 @@
   </library_effects>
   <library_images>
     <image id="lunar_texture_png" name="lunar_texture_png">
-      <init_from>lunar_texture.png</init_from>
+      <init_from>./lunar_texture.png</init_from>
     </image>
   </library_images>
   <library_materials>

@@ -20,12 +20,12 @@
                         <uri>model://artemis_arena/meshes/arena_columns.dae</uri>
                     </mesh>
                 </geometry>
-                <material>
+                <!-- <material>
                     <ambient>0.6 0.26 0 1</ambient>
                     <diffuse>1 0.52 0 1</diffuse>
                     <specular>0.18 0.18 0.18 1</specular>
                     <emissive>0 0 0 1</emissive>
-                </material>
+                </material> -->
             </visual>
 
             <collision name='columns_collision'>
@@ -55,12 +55,12 @@
                         <uri>model://artemis_arena/meshes/arena_pipe.dae</uri>
                     </mesh>
                 </geometry>
-                <material>
+                <!-- <material>
                     <ambient>0.6 0.26 0 1</ambient>
                     <diffuse>1 0.52 0 1</diffuse>
                     <specular>0.18 0.18 0.18 1</specular>
                     <emissive>0 0 0 1</emissive>
-                </material>
+                </material> -->
             </visual>
 
             <collision name='pipe_collision'>
@@ -90,12 +90,12 @@
                         <uri>model://artemis_arena/meshes/arena_walls.dae</uri>
                     </mesh>
                 </geometry>
-                <material>
+                <!-- <material>
                     <ambient>0.6 0.26 0 1</ambient>
                     <diffuse>1 0.52 0 1</diffuse>
                     <specular>0.18 0.18 0.18 1</specular>
                     <emissive>0 0 0 1</emissive>
-                </material>
+                </material> -->
             </visual>
 
             <collision name='walls_collision'>
@@ -125,12 +125,12 @@
                         <uri>model://artemis_arena/meshes/arena_window_frames.dae</uri>
                     </mesh>
                 </geometry>
-                <material>
+                <!-- <material>
                     <ambient>0.6 0.26 0 1</ambient>
                     <diffuse>1 0.52 0 1</diffuse>
                     <specular>0.18 0.18 0.18 1</specular>
                     <emissive>0 0 0 1</emissive>
-                </material>
+                </material> -->
             </visual>
 
             <collision name='window_frames_collision'>
@@ -160,12 +160,12 @@
                         <uri>model://artemis_arena/meshes/arena_windows.dae</uri>
                     </mesh>
                 </geometry>
-                <material>
+                <!-- <material>
                     <ambient>0.6 0.26 0 1</ambient>
                     <diffuse>1 0.52 0 1</diffuse>
                     <specular>0.18 0.18 0.18 1</specular>
                     <emissive>0 0 0 1</emissive>
-                </material>
+                </material> -->
             </visual>
 
             <collision name='windows_collision'>
